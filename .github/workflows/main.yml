@@ -43,6 +43,7 @@ jobs:
             https://raw.githubusercontent.com/bibicadotnet/AdGuard-Home-blocklists/refs/heads/main/byme.txt \
             https://raw.githubusercontent.com/VeleSila/yhosts/master/hosts \
             https://badmojr.github.io/1Hosts/Lite/adblock.txt \
+            https://raw.githubusercontent.com/bigdargon/hostsVN/master/option/domain.txt \
             https://abpvn.com/filter/abpvn-hDMenh.txt \
           | awk '{
               if (/^[[:space:]]*$/ || /^[!#;]/) next
